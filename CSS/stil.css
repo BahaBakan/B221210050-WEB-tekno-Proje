@@ -1,0 +1,104 @@
+@charset "UTF-8" ; 
+body { 
+margin:0;
+padding: 0; 
+background-color: #dbdbdb; 
+font-family: 'Montserrat', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 80%; 
+    margin: auto;
+    height: auto;   
+}
+
+header {
+    width: 100%;
+    height: 250px; 
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px; 
+    position: relative;
+    color: white; 
+    font-family: 'Teko', sans-serif; 
+    font-size: 35px; 
+    background-color: black; 
+    margin-bottom: 5px;
+
+}
+
+#headerResim {
+width: 100%;
+height: 250px; 
+opacity: 0.8;
+
+}
+
+
+#centered{
+position: absolute;
+top:50%;
+left: 50%; 
+transform: translate(-50%,-50%); /* ortalamak için kullandık */
+
+} 
+
+section{ 
+    width: 100%;
+    height: auto;
+    background-color: #fefefe;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    box-shadow: 0 2px 8px 2px rgba(238, 238, 238, 0.15);
+    margin-top: 15px;
+    
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    background-color:rgb(44, 43, 43);  
+    position: sticky;
+    top: 0;  
+    z-index: 1;  /*herhangibir şeyin barımızın üstüne çıkmasını engeller */
+
+}
+
+
+nav li {
+    float: right;
+    border-left:1px solid #bbb ;
+    font-size: large;
+    width: auto;
+    height: auto;
+   
+}
+
+nav li :first-child {
+    border-left: none;
+}
+
+nav li a {
+    display: block;
+   color: white;
+   text-align: center;
+    padding: 20px 27px;
+    text-decoration: none;
+    
+}
+nav li a:hover:not(.active) {
+background-color: #111;
+}
+
+nav .active {
+background-color: rgb(25, 143, 23);
+}
+
+
+
