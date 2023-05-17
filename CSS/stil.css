@@ -300,8 +300,52 @@ margin-top: 20px;
     color: deepskyblue; 
     font-family: 'Alata', sans-serif; 
     
-}
+} 
 
+iframe{
+    width: 98%; 
+    height: 350px; 
+    border-radius: 10px; 
+    margin-top: 10px; 
+    box-shadow: 0 2px 8px 2px rgb(37, 36, 36);
+    margin-left: 10px;
+
+} 
+
+.section1{
+    width: 98%; 
+    height: auto;
+     margin: auto; 
+     margin-top: 10px; 
+     background-color: #f2f2f2; 
+     padding: 10px; 
+
+}  
+
+.form{
+    width: 49%; 
+    float: left; 
+    height: 380px;  
+    border: 1px solid gray; 
+    padding:10px;  
+    margin-right: 10px; 
+    
+} 
+.col25{
+    width: 25%; 
+    float: left; 
+    margin-top: 6px;
+}
+.col75{
+    width: 75%; 
+    float: left; 
+    margin-top: 6px;
+} 
+
+label{
+    padding: 12px 12px 12px  0px; 
+    display: inline-block;
+}
 
 
 nav ul {
