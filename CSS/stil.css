@@ -364,7 +364,15 @@ input[type=radio]
     margin-top: 10px;
 }
 
-
+.hobilerim{
+    width: 31%;
+    height:350px; 
+    background-color:white;
+    float: left;
+    margin: 10px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 8px 2px rgb(157, 150, 150);
+} 
 
 nav ul {
     list-style-type: none;

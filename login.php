@@ -9,7 +9,7 @@ $password = $_POST['password'];
 // Kullanıcı adı ve parolayı kontrol etmek için basit bir örnek
 if ($username == 'B221210050@sakarya.edu.tr' && $password == 'B221210050') {
     // Başarılı giriş durumunda bir mesaj ver
-    header('Location: HAKKIMDA.html');
+    header('Location: index.html');
 } else {
     // Hatalı giriş durumunda kullanıcıyı login.html sayfasına yönlendir
     header('Location: login.html');
