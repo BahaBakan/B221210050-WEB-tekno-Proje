@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Sayfası</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: auto auto ;
+      padding: 50px; 
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px 2px rgba(73, 72, 72, 0.416);
+      margin-top: 200px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .loginKutu {
+      margin-bottom: 15px;
+    }
+
+    .loginKutu label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .loginKutu input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 2px solid #ccc;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      background-color: #246726;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+      <div class="loginKutu">
+        <label for="username">Kullanıcı Adı:</label>
+        <input type="email" id="username" name="username" required placeholder="Kullanıcı Adı">
+      </div>
+      <div class="loginKutu">
+        <label for="password">Parola:</label>
+        <input type="password" id="password" name="password" required placeholder="Şifre">
+      </div>
+      <button type="submit" class="btn">Giriş Yap</button>
+    </form>
+  </div>
+</body>
+</html> 
+
