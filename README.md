@@ -21,7 +21,10 @@ LOGİN:
 Bu sayfada kişinin öğrenci numarası istenecek.
 
 İLETİŞİM;
-Bu sayfada bana ulaşılabilecek adresler ve sosyal medya hesapları yer alacak. 
+Bu sayfada bana ulaşılabilecek adresler ve sosyal medya hesapları yer alacak.  
+
+#sayfa linki: 
+bahaproje.infinityfreeapp.com
 
 
 
